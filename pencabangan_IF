@@ -1,0 +1,39 @@
+if True:
+  print('Kode program ini akan dieksekusi')
+
+if False:
+  print('Kode program ini tidak akan dieksekusi')
+
+print('Kode program ini akan selalu dieksekusi karena tidak termasuk pada percabangan')
+print('----------pencabangan satu kondisi--------------------')
+
+bilangan =25
+if bilangan==5:
+    print("Kondisi benar ")
+else:
+ print("Kondisi salah")
+
+ print('----------pencabangan dua kondisi--------------------')
+
+umur =25
+if umur <=15:
+    print("pernyataan usia termasuk anak anak ")
+elif umur <=25:
+    print("pernyataan usia termasuk remaja ")  
+else:   
+    print("pernyataan usia tidak termasuk katagori")
+
+print('----------pencabangan lebih dari tiga kondisi--------------------')
+
+umur =40
+if umur <=15:
+    print("pernyataan usia termasuk anak anak ")
+elif umur <=25:
+    print("pernyataan usia termasuk remaja ")
+elif umur <=56:
+    print("pernyataan usia Produktif ")
+elif umur <=70:
+    print("pernyataan usia Pensiun ")       
+else:   
+    print("pernyataan usia tidak termasuk katagori")
+
